@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Multi-Stage Sketch Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/p5.glitch@latest/p5.glitch.js"></script>
+  </head>
+
+  <body>
+    <script src="libraries/scenemanager.js"></script>
+    <script src="line0.js"></script>
+    <script src="line1.js"></script>
+    <script src="line2.js"></script>
+    <script src="line3.js"></script>
+    <script src="line4.js"></script>
+    <script src="line5.js"></script>
+    <script src="sketch.js"></script>
+
+    <div id="scene-buttons">
+      <button onclick="mgr.showScene(line0)">TITEL</button>
+      <button onclick="mgr.showScene(line1)">"In lines of code and digital art, <br /> Generative beauty is set apart."</button>
+      <button onclick="mgr.showScene(line2)">"Pixels dance and colors blend, <br /> A canvas that never ends."</button>
+      <button onclick="mgr.showScene(line3)"> "A world of patterns and endless creation, <br/> Where imagination meets computation."</button>
+      <button onclick="mgr.showScene(line4)">  "The artist's hand replaced by machine, <br /> A new form of art, never before seen."</button>
+      <button onclick="mgr.showScene(line5)">  "Generative arts, a sight to behold, <br /> A marriage of technology and soul.  <br /> Let the algorithms bring art to life,  <br /> A canvas that's forever rife."</button>
+    </div>
+    
+  </body>
+
+</html>
