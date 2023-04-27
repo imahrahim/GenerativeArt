@@ -1,11 +1,11 @@
 html, body {
   background-color:rgb(255, 255, 255);
-  margin-left: 105px;
+  margin: 0;
   padding: 0;
 }
 button {
 
-  background-color: rgb(220);
+  background-color: rgb(255, 255, 255);
   font-size: 8pt;
   color: rgb(0, 0, 0);
   border: none;
