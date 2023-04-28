@@ -16,5 +16,6 @@ function draw() {
 function mouseClicked() {
   if (!context) {
     context = new AudioContext();
+     context.resume();
   }
 }
