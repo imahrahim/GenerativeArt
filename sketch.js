@@ -1,4 +1,5 @@
 let mgr;
+let context;
 
 function setup() {
   createCanvas(windowWidth,windowWidth);
